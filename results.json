@@ -1,0 +1,288 @@
+[
+  {
+    "description": "  As a guest on etkinlikcim\n  I want to see the contents and functionality\n  So that I surf on the Pages",
+    "elements": [
+      {
+        "id": "main-feature;create-etkinlik",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Create Etkinlik",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 1916717
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\support\\hooks.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the etkinlikcim main page",
+            "result": {
+              "status": "passed",
+              "duration": 5764963378
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\step_definitions\\mainPager.js:16"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Kongre",
+                      "Seminer",
+                      "Parti",
+                      "Sergi",
+                      "Konferans",
+                      "Özel Davet",
+                      "Baby Shower",
+                      "Festival",
+                      "Doğum Günü"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should see all home activities",
+            "result": {
+              "status": "passed",
+              "duration": 1232410
+            },
+            "line": 13,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\step_definitions\\mainPager.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 443761459
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\support\\hooks.js:10"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Main_Tests",
+            "line": 2
+          },
+          {
+            "name": "@HomeActivities",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "main-feature;create-etkinlik",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Create Etkinlik",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 144000
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\support\\hooks.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the etkinlikcim main page",
+            "result": {
+              "status": "passed",
+              "duration": 6988734774
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\step_definitions\\mainPager.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I see -Create free activity- link",
+            "result": {
+              "status": "passed",
+              "duration": 24660092
+            },
+            "line": 18,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\step_definitions\\mainPager.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click -Create free activity-",
+            "result": {
+              "status": "passed",
+              "duration": 89754630
+            },
+            "line": 19,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\step_definitions\\mainPager.js:26"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Kongre",
+                      "Seminer",
+                      "Parti",
+                      "Sergi",
+                      "Konferans",
+                      "Özel Davet",
+                      "Baby Shower",
+                      "Festival",
+                      "Doğum Günü",
+                      "Diğer"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "I should see all modal activities",
+            "result": {
+              "status": "passed",
+              "duration": 1636922
+            },
+            "line": 20,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\step_definitions\\mainPager.js:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 505813126
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\support\\hooks.js:10"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Main_Tests",
+            "line": 2
+          },
+          {
+            "name": "@HomeModalActivities",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "main-feature;image-checking",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Image Checking",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 122667
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\support\\hooks.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the etkinlikcim main page",
+            "result": {
+              "status": "passed",
+              "duration": 4652760348
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\step_definitions\\mainPager.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see all images on the page",
+            "result": {
+              "status": "passed",
+              "duration": 1519589
+            },
+            "line": 25,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\step_definitions\\mainPager.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 18879248870
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\support\\hooks.js:10"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Main_Tests",
+            "line": 2
+          },
+          {
+            "name": "@HomeImages",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "main-feature",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Main Feature",
+    "tags": [
+      {
+        "name": "@Main_Tests",
+        "line": 2
+      }
+    ],
+    "uri": "D:\\Users\\onurulu\\WebstormProjects\\etkinlikcimE2E\\features\\mainPage.feature"
+  }
+]
