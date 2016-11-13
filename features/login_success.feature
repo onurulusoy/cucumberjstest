@@ -14,4 +14,4 @@ Feature: Example feature
     Then I write my E-Mail "ulusoyonur@yahoo.com"
     Then I write my Password "mahmut123"
     Then I click Login Button
-    Then I should see "Onurr Ulusosdy"
+    Then I should see "Onurr Ulusoy"
