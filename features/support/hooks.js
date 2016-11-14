@@ -4,7 +4,7 @@ var assertHtmlReports = require('../../node_modules/cucumber-html-reporter/test/
 var path = require('path');
 var fs = require('fs');
 var find = require('find');
-var suiteName = ((process.argv[12]).split('json:test\\report\\'))[1].toString();
+var suiteName = ((process.argv[12]).split('json:test/report/'))[1].toString();
 
 var hooks = function () {
 
