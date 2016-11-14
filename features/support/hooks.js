@@ -37,7 +37,7 @@ var hooks = function () {
     };
 
     var outputDirectory = 'test/report/';
-    vvar jsonFile = 'test/report/' + suiteName;
+    var jsonFile = 'test/report/' + suiteName;
     //var jsonDir = 'test/report/multi';
 
     function removeReports() {
