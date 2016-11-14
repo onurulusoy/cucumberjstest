@@ -4,6 +4,7 @@ var assertHtmlReports = require('../../node_modules/cucumber-html-reporter/test/
 var path = require('path');
 var fs = require('fs');
 var find = require('find');
+var suiteName = ((process.argv[12]).split('json:test\\report\\'))[1].toString();
 
 var hooks = function () {
 
@@ -36,7 +37,7 @@ var hooks = function () {
     };
 
     var outputDirectory = 'test/report/';
-    var jsonFile = 'test/report/results.json';
+    vvar jsonFile = 'test/report/' + suiteName;
     //var jsonDir = 'test/report/multi';
 
     function removeReports() {
@@ -49,7 +50,7 @@ var hooks = function () {
     function getOptions(theme) {
       return {
         theme: theme,
-        output: path.join(outputDirectory, 'cucumber_report_' + theme + '.html'),
+        output: path.join(outputDirectory, 'report_' + suiteName + theme + '.html'),
         reportSuiteAsScenarios: true,
         launchReport: true
       };
