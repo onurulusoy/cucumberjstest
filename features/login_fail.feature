@@ -22,11 +22,11 @@ Feature: Login Fail Feature
     Then I write my Password "mahmut123"
     Then I click Login Button
     Then I should see the error message
-        |LÜTFEN BIR EPOSTA ADRESI GIRINIZ|
+        |LÜTFEN BIR E-POSTA ADRESI GIRINIZ|
 
       @fail_login3
   Scenario: Fail Login3
     When I see GIRIS YAP
     Then I click Login Button
     And I should see the error message
-      |LÜTFEN BIR EPOSTA ADRESI GIRINIZ|ŞIFRE KISMI BOŞ OLAMAZ|
+      |LÜTFEN BIR E-POSTA ADRESI GIRINIZ|ŞIFRE KISMI BOŞ OLAMAZ|
