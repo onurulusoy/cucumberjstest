@@ -11,7 +11,7 @@ Feature: Main Feature
   @HomeActivities
   Scenario: Home Activity Checking
     Then I should see all home activities
-      |Kongre|Seminer|Parti|Sergi|Konferans|Özel Davet|
+      |Kongre|Seminer|Parti|Sergi|Konferans|Özel Davet||||
 
   @HomeModalActivities
   Scenario: Home Modal Activity Checking
