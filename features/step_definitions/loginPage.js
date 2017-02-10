@@ -12,7 +12,7 @@ module.exports = function () {
     });
 
     this.When(/^I see GIRIS YAP$/, function () {
-        return this.driver.findElement(By.className('center')).then(function (element) {
+        return this.driver.findElement(By.className('form-title')).then(function (element) {
             return element;
         });
     });
