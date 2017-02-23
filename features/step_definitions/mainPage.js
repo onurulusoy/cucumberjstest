@@ -32,7 +32,7 @@ module.exports = function () {
     this.Then(/^I should see all home activities$/, function (activities) {
         var expected = [];
         expected[0] = [];
-        promise = this.driver.findElements(By.className('col s6 m4 l4'));
+        promise = this.driver.findElements(By.className('column-sm-6 column-md-4'));
         promise.then(function (elements) {
             async.eachSeries(elements, function (element, callback) {
                 element.getText().then(function (text) {
@@ -49,10 +49,16 @@ module.exports = function () {
         });
     });
 
+    this.When(/^I click "([^"]*)"$/, function (text) {
+        return this.driver.findElement(By.className(text)).then(function (element) {
+            return element.click();
+        });
+    });
+    
     this.Then(/^I should see all modal activities$/, function (activities) {
         var expected = [];
         expected[0] = [];
-        promise = this.driver.findElements(By.className('col s12 m6 l3'));
+        promise = this.driver.findElements(By.className('column-md-3 column-sm-6'));
         promise.then(function (elements) {
             async.eachSeries(elements, function (element, callback) {
                 element.getText().then(function (text) {
