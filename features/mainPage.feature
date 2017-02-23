@@ -12,6 +12,9 @@ Feature: Main Feature
   Scenario: Home Activity Checking
     Then I should see all home activities
       |Kongre|Seminer|Parti|Sergi|Konferans|Özel Davet||||
+    When I click "show-more-button"
+    Then I should see all home activities
+      |Kongre|Seminer|Parti|Sergi|Konferans|Özel Davet|Baby Shower|Festival|Doğum Günü|
 
   @HomeModalActivities
   Scenario: Home Modal Activity Checking
